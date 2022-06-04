@@ -33,15 +33,16 @@
 =========================*/
 
 
-.comments{
+.comments_section{
     margin-top: 4rem;
 }
 
 
-.comment{
+.comments{
     background-color: white;
     padding: 1.5rem;
     border-radius: .5em;
+    min-width: 650px;
 }
 
 .button{
@@ -71,7 +72,7 @@
 }
 
 .button .counter{
-    font-size: 1rem;
+    font-size: .9rem;
     padding: 0 .5em;
     background-color: hsl(228, 33%, 97%);
 }
@@ -90,6 +91,7 @@
 }
 
 .user-info{
+    flex-direction: row;
     margin-bottom: .4rem;
    align-items: center;
 }
@@ -105,5 +107,21 @@
 .user-post{
     font-size: 1rem;
      
+}
+
+.user-reply{
+    margin-left: 20rem;
+}
+
+.user-reply button {
+    color:hsl(238, 40%, 52%);
+    background-color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+.user-reply img{
+ 
+  color: hsl(238, 40%, 52%);
 }
 
